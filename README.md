@@ -11,16 +11,16 @@ Technologies used:
 - Font Awesome
 - SASS
 
-#### To run the app
+## To run the app
 
 npm install
 npm run dev
 
-#### To run the json-server
+## To run the json-server
 
 install json-server globally - npm install -g json-server
 json-server --watch db.json --port 3001
 
-#### To run lint
+## To run lint
 
 npm run lint / npm run lintfix
