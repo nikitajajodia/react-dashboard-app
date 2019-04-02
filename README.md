@@ -14,6 +14,7 @@ Technologies used:
 ## To run the app
 
 npm install
+
 npm run dev
 
 ## To run the json-server
