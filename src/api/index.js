@@ -1,9 +1,6 @@
 import axios from 'axios';
-import Config from '../config';
 
-const {
-  baseUri,
-} = Config;
+const baseUri = 'http://localhost:3001';
 
 const get = (url, params, headers) => new Promise((resolve) => {
   axios.get(baseUri + url, { params, headers })

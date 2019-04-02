@@ -1,0 +1,25 @@
+@media (min-width: 320px) and (max-width: 767px) {
+	.table-holder {
+		table {
+			th {
+				width: 100px;
+			}
+			td {
+				width: 100px;
+			}
+		}
+	}
+	.sidebar.side-bar-collapse {
+		transform: translateX(0);
+		span {
+			display: block;
+		}
+	}
+	.sidebar {
+		transform: translateX(calc(-100% - 20px));
+		width: 240px;
+	}
+	.collapsed_sidebar, .page-content{
+		padding-left: 0px;
+	}
+}

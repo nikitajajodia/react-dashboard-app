@@ -1,0 +1,54 @@
+/* SideBar */
+.sidebar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding-top: 60px;
+	width: 240px;
+	height: 100vh;
+	transition: transform 0.3s, width 0.3s, -webkit-transform 0.3s;
+	background: $theme-sidebar-background;
+	box-shadow: 0 1px 30px 1px rgba(0, 0, 0, 0.11);
+	z-index: 99;
+	ul {
+		list-style: none;
+		width: 100%;
+		padding: 0;
+	}
+	a {
+		display: block;
+		transition: all 0.3s;
+		text-decoration: none;
+
+	}
+	.sidebar__link-active li {
+    	color: $theme-red;
+    }
+	li {
+		list-style: none;
+	    transition: all 0.3s;
+	    position: relative;
+	    cursor: pointer;
+	    display: flex;
+	    padding: 11px 20px;
+	    overflow: hidden;
+	    background: transparent;
+	    border: none;
+	    color: $white;
+	    font-size: 14px;
+	    line-height: 16px;
+	    &:hover {
+	    	color: $theme-red;
+	    }
+	    i {
+	    	margin-right: 10px;
+	    }
+	}
+}
+
+.side-bar-collapse {
+	width: 55px;
+	span {
+		display: none;
+	}
+}

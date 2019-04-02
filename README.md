@@ -1,12 +1,24 @@
-React-Redux BoilerPlate with JEST, EsLint, Enzyme
+##A simple Dasbhoard App made in React JS which is responsive having a collapsible sidebar and a fixed header, having data tables with sorting
 
-npm install
+Technologies used:
 
+- React
+- Redux
+- Webpack
+- json-server
+- react-bootstrap-table
+- bootstrap
+- Font Awesome
+- SASS
 
-For development: npm run dev
+####To run the app
 
-For test cases to execute: npm test
+######npm install
+######npm run dev
 
-For ESLint: npm run lint
+####To run the json-server
+######install json-server globally - npm install -g json-server
+######json-server --watch db.json --port 3001
 
-For ESLint fixes: npm run lintfix
+####To run lint
+######npm run lint / npm run lintfix

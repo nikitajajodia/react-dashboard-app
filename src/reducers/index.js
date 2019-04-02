@@ -1,12 +1,7 @@
 import { combineReducers } from 'redux';
 
-import {
-  reducer as form,
-} from 'redux-form';
-
-import authObject from './AuthReducer';
+import dashboard from './DashboardReducer';
 
 export default combineReducers({
-  authObject,
-  form,
+  dashboard,
 });

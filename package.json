@@ -1,9 +1,9 @@
 {
-  "name": "react-redux-boilerplate",
+  "name": "react-dashboard-app",
   "version": "1.0.0",
-  "description": "Boilerplate to setup your react-redux app with eslint lint and jest",
+  "description": "A simple dashboard screen with header and collapsible side bar, data table with sorting",
   "author": "Nikita-Jajodia",
-  "repository": "https://github.com/nikitajajodia/react-redux-boilerplate.git",
+  "repository": "https://github.com/nikitajajodia/react-dashboard-app.git",
   "scripts": {
     "dev": "webpack-dev-server --historyApiFallback true --port 8888 --content-base build/",
     "test": "jest",
@@ -26,9 +26,11 @@
   "dependencies": {
     "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.3.1",
     "html-webpack-plugin": "3.2.0",
     "lodash": "^4.17.11",
     "react": "^16.8.6",
+    "react-bootstrap-table": "^4.3.1",
     "react-dom": "^16.8.6",
     "react-redux": "5.0.7",
     "react-router-dom": "^4.3.1",
@@ -59,6 +61,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
     "jest": "^23.6.0",
+    "json-server": "^0.14.2",
     "node-sass": "^4.11.0",
     "react-test-renderer": "16.4.2",
     "sass-loader": "^7.1.0",
